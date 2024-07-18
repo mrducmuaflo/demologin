@@ -8,9 +8,9 @@
 :root{
     --duc-cc: green;
     --duc-fontfamily: sans-serif;
-    background-image: url(imagestduc/440720393_961751088607679_8758028124176503006_n.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    background-image: url(imagestduc/images.jpg);
+    background-repeat: repeat;
+    background-size: 100px;
     color: rgb(245, 245, 245);
     font-family: sans-serif;
     box-sizing: border-box;
@@ -59,6 +59,7 @@ div>input {
     font-size: 1.6rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    text-align: center;
 }
 button {
     position: absolute;
@@ -92,7 +93,7 @@ input:hover {
 }
 .register {
     position: relative;
-    left: 110px;
+    left: 115px;
     color: chocolate;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 1.33px;
